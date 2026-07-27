@@ -1,0 +1,13 @@
+# Ignore local environment variable files
+.env
+*.env.local
+
+
+# Ignore an entire directory (always add a trailing slash)
+node_modules/
+dist/
+build/
+
+# Avoid OS-specific metadata files
+.DS_Store
+Thumbs.db
